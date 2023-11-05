@@ -17,8 +17,8 @@ dt = 0
 
 # Load Roboto font or fall back to Arial
 try:
-    title_font = pygame.font.Font("/Users/lydiahe/Downloads/WT1/BSV/recharge.ttf", 36)
-    subtitle_font = pygame.font.Font("/Users/lydiahe/Downloads/WT1/BSV/recharge.ttf", 20)
+    title_font = pygame.font.Font("/Users/lydiahe/Downloads/WT1/Binary-Search-Algorithm-Visualizer/recharge.ttf", 36)
+    subtitle_font = pygame.font.Font("/Users/lydiahe/Downloads/WT1/Binary-Search-Algorithm-Visualizer/recharge.ttf", 20)
 except pygame.error:
     font = pygame.font.SysFont("Arial", 36)
 
