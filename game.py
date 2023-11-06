@@ -15,6 +15,11 @@ clock = pygame.time.Clock()
 running = True
 dt = 0
 
+# Define different screens
+SCREEN_MAIN = "main"
+SCREEN_NEW = "new_screen"
+current_screen = SCREEN_MAIN  # Initially, you are on the main screen
+
 # Load Roboto font or fall back to Arial
 try:
     title_font = pygame.font.Font("/Users/lydiahe/Downloads/WT1/BSAV/recharge.ttf", 36)
